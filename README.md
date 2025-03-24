@@ -1,12 +1,27 @@
-# React + Vite
+# Firebase Database CRUD with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+This project is a React application that performs CRUD (Create, Read, Update, Delete) operations using Firebase Firestore as the database. The app allows users to input their details, including name, email, password, gender, hobbies, city, and profile image URL.
 
-Currently, two official plugins are available:
+## Features
+- Add new user records to Firebase
+- Update existing records
+- Delete records
+- Retrieve and display data in a table
+- Bootstrap for UI styling
+- React Toastify for notifications
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React.js
+- Firebase Firestore
+- Bootstrap 5
+- React Toastify
 
-## Expanding the ESLint configuration
+## Usage
+1. Fill in the user form with details like name, email, password, gender, hobbies, and city.
+2. Submit the form to save data to Firebase.
+3. View all stored records in a table.
+4. Click **Update** to modify an entry.
+5. Click **Delete** to remove an entry.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
